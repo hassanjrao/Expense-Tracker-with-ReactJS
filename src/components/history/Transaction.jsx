@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import "./history.css"
 
-import { GlobalContext } from "../context/GlobalState"
+import {GlobalContext} from "../../context/GlobalState"
 
 
 

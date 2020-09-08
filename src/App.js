@@ -5,7 +5,7 @@ import Balance from "./components/balance/Balance"
 import TransactionHistory from "./components/transactionHistory/TransactionHistory"
 import History from "./components/history/History"
 import AddTransaction from "./components/addTransaction/AddTransaction"
-import {GlobalProvider} from "./components/context/GlobalState"
+import {GlobalProvider} from "./context/GlobalState"
 
 
 

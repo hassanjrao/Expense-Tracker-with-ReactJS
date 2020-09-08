@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react'
 import "./addTransaction.css"
-import {GlobalContext} from "../context/GlobalState"
+import {GlobalContext} from "../../context/GlobalState"
 
 
 

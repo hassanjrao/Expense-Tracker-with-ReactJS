@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import "./history.css"
 import Transaction from "./Transaction"
 
-import { GlobalContext } from "../context/GlobalState"
+import {GlobalContext} from "../../context/GlobalState"
 
 export default function History() {
 
