@@ -1,0 +1,27 @@
+.income-expense {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: white;
+  padding: 10px 0;
+  margin: 20px 0;
+  -webkit-box-shadow: 1px 1px 12px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 1px 1px 12px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 1px 1px 12px 0px rgba(50, 50, 50, 0.75);
+}
+
+.income h4 {
+  padding-bottom: 3px;
+}
+
+.expense h4 {
+  padding-bottom: 3px;
+}
+
+.income h3 {
+  color: #2ecc72;
+}
+
+.expense h3 {
+  color: #ba2f16;
+}

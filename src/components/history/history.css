@@ -1,0 +1,42 @@
+.history h4 {
+  padding: 10px 0;
+  border-bottom: 1px solid grey;
+  margin-bottom: 22px;
+}
+
+.history-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.card-text{
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 9px;
+  margin-bottom: 10px;
+  width: 92%;
+  -webkit-box-shadow: 1px 1px 12px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 1px 1px 12px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 1px 1px 12px 0px rgba(50, 50, 50, 0.75);
+  
+}
+
+.del-btn{
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  border: none;
+  padding:  5px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid red;
+  display: none;
+  
+}
+
+.history-card:hover .del-btn{
+  display: block;
+}
+
