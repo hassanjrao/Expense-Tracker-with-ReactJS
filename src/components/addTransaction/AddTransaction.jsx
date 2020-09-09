@@ -39,7 +39,7 @@ export default function AddTransaction() {
                 <label htmlFor="amount">Amount</label><br />
                 <input type="number" value={amount} onChange={(e) => { setAmount(e.target.value) }} className="inputs" placeholder="Enter amount" /><br /><br />
 
-                <button onClick={addTrans} className="btn">Add Transaction <span role="img" aria-label="thumb emoji">👍</span></button>
+                <button onClick={addTrans} className="btn">Add Transaction</button>
             </form>
         </div>
     )
